@@ -1,4 +1,4 @@
-# BitcoinExchanger
+# Bitcoin Converter
 Hungarian:
 OOHQ3E OS I. gyakorlatra készült beadandó.
 Script, ami megmondja, hogy 1 Bitcoin bizonyos valutákban mennyit ér.
