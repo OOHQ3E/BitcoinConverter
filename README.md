@@ -10,3 +10,6 @@ OOHQ3E assignment for OS I. practice.
 It's a script which tells you how much is 1 bitcoin in other currencies.
 I used CoinDesk API, and made a temporary result file, which stores the supported currencies, which the script can use later. -l gives you a list of the useable currencies, -h gives you some information about the script (it uses jq, so if you want to use it, that must be instaled with 'sudo apt install jq')
 With -e and a given currency code the script gives you how much is one bitcoin in the desired currency, but only if it is in the list of supported currencies. (eg.: ./script.sh -e CAD gives you how much canadian dollars is 1 BitCoin)
+
+
+Powered by CoinDesk https://www.coindesk.com/price/bitcoin
