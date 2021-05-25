@@ -3,7 +3,7 @@ Hungarian:
 OOHQ3E OS I. gyakorlatra készült beadandó.
 Script, ami megmondja, hogy 1 Bitcoin bizonyos valutákban mennyit ér.
 CoinDesk API-t használva kiírtam egy ideiglenes result fájlba a supported-currencies-t (használható valuták), amit később lehet használni a scriptnek. -l kapcsolóval le lehet kérni a használható valutákat -h használatával a bizonyos információkat lehet lekérni. (jq-t használ a script, ezért a használata előtt azt telepíteni kell 'sudo apt install jq')
--e kapcsoló segítségével majd egy valuta kód beírásával lefut a script és ha szerepel a használható valuták listában, akkor kiírja, hogy mennyit is ér. (pl.: ./script -e CAD kiírja hány kanadai dollár jelenleg egy BitCoin)
+-e kapcsoló segítségével majd egy valuta kód beírásával lefut a script és ha szerepel a használható valuták listában, akkor kiírja, hogy mennyit is ér. (pl.: ./script.sh -e CAD kiírja hány kanadai dollár jelenleg egy BitCoin)
 
 English:
 OOHQ3E assignment for OS I. practice.
